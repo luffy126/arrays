@@ -1,1 +1,1 @@
-small c things to practice
+small c arrays to practice
