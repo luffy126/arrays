@@ -20,7 +20,7 @@ struct arregloContactos *crearRegistro(int cantidadContactos) {
     int i;
 
     contactos = (struct arregloContactos *) malloc(sizeof(struct arregloContactos));
-    contactos->pLibre = 0;  // Initialize to 0, since no contacts have been added yet
+    contactos->pLibre = 0;  
     contactos->maxContactos = cantidadContactos;
     contactos->contactos = (struct Contacto **) malloc(cantidadContactos * sizeof(struct Contacto *));
     for (i = 0; i < cantidadContactos; i++) {
